@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+p{
+  margin: 0;
+}
+h1{
+  margin: 0;
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
+  background: #E5E5E5;
+}
+
+
+
+
+#footer{
+  background-color: black;
+  background: rgb(30, 30, 30);
+  color: white;
+  text-align: center;
+  padding: 30px;
+
+  
+}
+
+
+
+.container2004{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container2004 .box{
+  width: 30%;
+  min-width: 200px;
+  min-height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative
+  ;
+  background-color:  #EBEAEA;;
+  padding: 40px 40px 40px;
+  text-align: center;
+  overflow: hidden;
+  
+}
+
+.section__comoFunciona2004{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.section__comoFuncionaTitle2004{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.section__comoFuncionaTitle2004 h1{
+ margin: 0;
+}
+
+.section__comoFuncionaTitle2004  p mark{
+ background-color: transparent;
+ color: red;
+ }
+.section__comoFunciona_content2004{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+.box .box1{
+
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: ;
+
+}

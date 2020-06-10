@@ -1,0 +1,17 @@
+.card {
+  width: 160px;
+  height: 210px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  margin: 90px 78px 300px 78px;
+  background-image: auto;
+  background-position-y: center;
+  box-shadow: 10px -5px 8px rgba(0, 0, 0, 0.07);
+}
+
+.card:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

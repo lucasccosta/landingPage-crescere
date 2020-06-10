@@ -1,0 +1,108 @@
+
+.main-footer{
+    background-color:#E01F27;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    position:relative;
+    bottom:0;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .f-rows{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-left:120px;
+  }
+  
+  .f-col1{
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+    font-style:normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 24px;
+  
+  }
+  
+  .ful2{
+    list-style: none;
+  }
+
+  ul{
+      list-style: none;
+  }
+  
+  .f-icon{
+    color:white;
+    padding: 15px;
+  }
+  
+  .f-icon:hover{
+    color:black;
+  }
+  
+  .f-vl{
+    border: 1px solid white;
+    margin:10px;
+  }
+  
+  .f-heart{
+    color: black;
+  }
+  
+  .f-col2{
+    align-items: center;
+    text-align: center;
+    font-style:normal;
+    font-weight: 200;
+    font-size: 20px;
+   
+  }
+  
+  .bottom-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .f-logo{
+    width: 200px;
+    padding-top:10px;
+    padding-bottom: 0px;
+  }
+  
+  .copy{
+    color:#DCDCDC;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .equipe{
+    display: none;
+  }
+  
+  .f-A:hover span{ /*the span will display just on :hover state*/
+    display:block;
+    position: absolute;
+    bottom:65px;
+    margin-right: 120px;
+    width:400px;
+    height: 100px;
+    font-size: 14px;
+    border:1px solid white;
+    background-color:#E01F27; color:white;
+    text-align: center;
+    padding:10px;
+  }
+  
+  
+  
+  
+  

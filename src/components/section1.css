@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.tela-2 {
+  height: 100vh;
+  padding: 140px 0;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  margin-left: 85px;
+}
+
+.titulo-pg {
+  font-size: 98px;
+  color: white;
+}
+
+strong {
+  color: red;
+}
+.paragrafo1 {
+  font-size: 23px;
+}
+
+.box-2 {
+  border-radius: 8px;
+  border: 1px solid red;
+  background-color: red;
+  font-weight: bold;
+  font-family: Rubik, sans-serif;
+  padding: 10px 23px;
+  margin-left: 985px;
+}
+
+.box-2:hover {
+  transition: all 0.5s;
+  border: 10px solid transparent;
+  border-radius: 6px;
+}
+
+.box-2 a {
+  text-decoration: none;
+  color: white;
+}
